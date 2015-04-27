@@ -8,6 +8,12 @@ I'm a software engineer at Facebook. Here's some stuff not about that.
 
 ## Projects
 
+- [File Github issues over Twitter][]
+
+  Tweet `@githubissue github-user/repo your project is bad and you should feel
+  bad` to file a Github issue directly over Twitter for when you are on the
+  go or are lazy.
+
 - [How to Center in CSS][]
 
   For web developers who struggle with aligning things in CSS. Which should be
@@ -29,6 +35,7 @@ I'm a software engineer at Facebook. Here's some stuff not about that.
 - email: herpderp at oliverzheng.com
 
 
+  [File Github issues over Twitter]: http://twitter.com/githubissue
   [How to Center in CSS]: http://howtocenterincss.com
   [Songs You Liked on Pandora]: http://pandorasongs.oliverzheng.com
   [FUN+]: http://funplus.oliverzheng.com
