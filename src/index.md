@@ -2,10 +2,6 @@
 template: index.html
 ---
 
-# Oliver Zheng
-
-I'm a software engineer at Facebook. Here's some stuff not about that.
-
 ## Projects
 
 - [File Github issues over Twitter][]

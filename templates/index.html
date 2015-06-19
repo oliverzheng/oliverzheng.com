@@ -4,6 +4,22 @@
   <title>Oliver Zheng</title>
 </head>
 <body>
+
+  <h1>Oliver Zheng</h1>
+
+  <p>I'm a software engineer at Facebook. Here's some stuff not about that.</p>
+
+  {{#if collections.articles}}
+  <h2>Articles</h2>
+  <ul>
+    {{#each collections.articles}}
+      <li>
+        <a href="{{this.path}}">{{this.title}}</a>
+      </li>
+    {{/each}}
+  </ul>
+  {{/if}}
+
   {{{ contents }}}
 </body>
 </html>
