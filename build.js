@@ -1,6 +1,10 @@
+var fs = require('fs');
+
 var handlebars = require('handlebars');
 var handlebarsIntl = require('handlebars-intl');
 handlebarsIntl.registerWith(handlebars);
+
+handlebars.registerPartial('footer', fs.readFileSync(__dirname + '/templates/includes/footer.html').toString());
 
 var Metalsmith = require('metalsmith');
 var markdown = require('metalsmith-markdown');
