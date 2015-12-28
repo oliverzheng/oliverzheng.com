@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    {{#if title }}
+    <title>{{{ this.title }}}</title>
+    {{else}}
+    <title>Oliver Zheng</title>
+    {{/if}}
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <link type="text/css" rel="stylesheet" href="{{rootPath}}assets/styles.css" />
+    <link
+      href='https://fonts.googleapis.com/css?family=Lato:100,300,400|Open+Sans:400,300'
+      rel='stylesheet'
+      type='text/css'
+    />
+  </head>
+  <body>
+    <section class="page {{this.pageCssClass}}">
+      <header class="oliverzheng">
+        <a href="{{rootPath}}">
+          <span class="oliver">Oliver</span>
+          <span class="zheng">Zheng</span>
+        </a>
+      </header>
+      <section class="body">

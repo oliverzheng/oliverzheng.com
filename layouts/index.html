@@ -1,0 +1,39 @@
+{{> header}}
+  <ul class="navigation-links">
+    {{#each collections.all}}
+      <li>
+        <p class="label-text">
+          {{ formatDate date month="short" day="numeric" year="numeric" }}
+        </p>
+        {{#if this.link}}
+          <section class="tags">
+            <p class="tag">Project</p>
+          </section>
+        {{/if}}
+        <p class="link">
+          {{#if this.link}}
+            <a href="{{this.link}}">{{this.title}}</a>
+          {{else if this.path}}
+            <a href="{{this.path}}">{{this.title}}</a>
+          {{/if}}
+        </p>
+        {{#if this.link}}
+          {{#if this.contents}}
+            <section class="description">
+              {{{ this.contents }}}
+            </section>
+          {{/if}}
+        {{/if}}
+      </li>
+    {{/each}}
+  </ul>
+  <section class="about">
+    <h1>About</h1>
+    <p>
+      I live in Seattle and work in the software industry. I like making
+      things. This site lists things I've made and non-things that help
+      make things.
+    </p>
+    {{> about}}
+  </section>
+{{> footer}}

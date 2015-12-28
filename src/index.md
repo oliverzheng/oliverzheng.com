@@ -1,5 +1,6 @@
 ---
-template: index.html
+layout: index.html
+pageCssClass: homepage
 ---
 
 ## Useful Things I've Made

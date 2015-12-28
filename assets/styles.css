@@ -1,0 +1,180 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7em;
+  color: #2F3238;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: #787a7e;
+  border-bottom: 1px dashed #CBCCCD;
+}
+a:hover {
+  color: #2F3238;
+  border-color: #787a7e;
+}
+
+h1, h2, h3 {
+  color: #FF9466;
+  font-weight: 300;
+}
+h1 {
+  font-size: 20px;
+  margin-top: 0.3em;
+  margin-bottom: 0.7em;
+}
+h2 {
+  font-size: 16px;
+  margin-top: 1.2em;
+}
+h3 {
+  font-size: 13px;
+  margin-top: 1.2em;
+  text-transform: uppercase;
+}
+
+.page {
+  margin: 20px 25px 0 25px;
+}
+@media(min-width:700px) {
+  .page {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width:700px) {
+  .page {
+    padding-bottom: 30px;
+  }
+  .homepage {
+    padding-top: 90px;
+    padding-bottom: 70px;
+  }
+}
+
+.oliverzheng {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  letter-spacing: -1.2px;
+}
+@media(min-width:700px) {
+  .homepage .oliverzheng {
+    margin-bottom: 90px;
+  }
+}
+.oliverzheng a {
+  color: #FF9466;
+  border: 0;
+}
+.oliverzheng .oliver {
+  font-weight: 100;
+  /* It's just a little TOO thin */
+  -webkit-text-stroke-width: 0.3px;
+}
+
+.oliverzheng .zheng {
+  font-weight: 300;
+}
+
+.tags {
+  margin-bottom: 4px;
+  -webkit-text-stroke-width: 0.1px;
+}
+@media(min-width:700px) {
+  .tags {
+    position: relative;
+    left: -12px;
+    top: 3px;
+    width: 0;
+    height: 0;
+    margin-bottom: 0;
+  }
+}
+.tag {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.4px;
+  font-size: 10px;
+  background: #66D9FF;
+  display: inline-block;
+  margin: 0;
+  color: white;
+  padding: 3px 7px 4px 7px;
+  line-height: 1em;
+  border-radius: 15px;
+}
+/* iPhone only */
+/* http://stackoverflow.com/questions/16348489/is-there-a-css-hack-for-safari-only-not-chrome */
+@supports (-webkit-text-size-adjust:none) and (not (-ms-accelerator:true)) {
+  /* Weird padding */
+  .tag {
+    padding-bottom: 3px;
+    padding-top: 4px;
+  }
+
+}
+@media(min-width:700px) {
+  .tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.label-text {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.navigation-links {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+}
+.navigation-links li {
+  list-style: none;
+  margin: 20px 0;
+}
+.navigation-links .link {
+  font-size: 15px;
+  margin: 0;
+}
+.navigation-links .link a {
+  color: #2F3238;
+  border: 0;
+}
+.navigation-links .link a:hover {
+  border-bottom: 1px dashed #787a73;
+}
+.navigation-links .description {
+  color: #787a7e;
+  font-size: 13px;
+}
+.navigation-links .description p {
+  margin: 8px 0;
+}
+
+.about {
+  margin-top: 50px;
+  color: #787a7e;
+}
+@media(min-width:700px) {
+  .about {
+    margin-top: 70px;
+  }
+}
+
+.see-more {
+  margin-top: 50px;
+}
