@@ -178,3 +178,16 @@ h3 {
 .see-more {
   margin-top: 50px;
 }
+
+.article a {
+  color: #2F3238;
+  border-bottom: 1px dashed #787a7e;
+}
+.article a:hover {
+  border-color: #000;
+}
+.article pre {
+  background: #F4F4F4;
+  padding: 3px 7px;
+  margin: -3px -7px;
+}
