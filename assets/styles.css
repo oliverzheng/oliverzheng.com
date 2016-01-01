@@ -190,4 +190,12 @@ h3 {
   background: #F4F4F4;
   padding: 3px 7px;
   margin: -3px -7px;
+  /* Mobile should have horizontal scrolling code, since it's already 100% */
+  overflow: auto;
+}
+@media(min-width:700px) {
+  /* Desktop should not scroll code. Just expand it. */
+  .article pre {
+    overflow: visible;
+  }
 }
