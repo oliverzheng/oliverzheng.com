@@ -6,6 +6,7 @@ handlebarsIntl.registerWith(handlebars);
 
 var Metalsmith = require('metalsmith');
 var markdown = require('metalsmith-markdown');
+var dateFormatter = require('metalsmith-date-formatter');
 var paths = require('metalsmith-paths');
 var rootpath = require('metalsmith-rootpath');
 var permalinks = require('metalsmith-permalinks');
@@ -34,6 +35,14 @@ Metalsmith(__dirname)
   .use(paths())
   .use(permalinks({
     pattern: ':title',
+  }))
+  .use(dateFormatter({
+    dates: [
+      {
+        key: 'date',
+        format: 'MMM DD, YYYY'
+      }
+    ]
   }))
   .use(layouts({
     engine: 'handlebars',

@@ -20,5 +20,8 @@
     "metalsmith-permalinks": "^0.4.0",
     "metalsmith-rootpath": "^0.1.3",
     "metalsmith-slug": "0.0.5"
+  },
+  "devDependencies": {
+    "metalsmith-date-formatter": "^1.0.2"
   }
 }
