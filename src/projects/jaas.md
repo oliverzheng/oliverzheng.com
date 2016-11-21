@@ -1,5 +1,5 @@
 ---
-title: Jaas - JavaScript as a Service
+title: Jāas - JavaScript as a Service
 date: 2016-11-15
 link: http://jaasjs.com
 ---
