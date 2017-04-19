@@ -1,7 +1,8 @@
 ---
 title: Jāas - JavaScript as a Service
 date: 2016-11-15
-link: http://jaasjs.com
+url: http://jaasjs.com
+tag: Project
 ---
 
 The increasing complexity in the JavaScript ecosystem is a drag. This relieves

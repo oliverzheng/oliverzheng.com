@@ -1,7 +1,8 @@
 ---
 title: Twitter Bot to Create GitHub Issues
 date: 2015-04-03
-link: http://twitter.com/githubissue
+url: http://twitter.com/githubissue
+tag: Project
 ---
 
 Tweet `@githubissue github-user/repo your project is bad and you should feel bad

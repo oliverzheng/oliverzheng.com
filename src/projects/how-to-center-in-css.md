@@ -1,7 +1,8 @@
 ---
 title: How to Center in CSS
 date: 2015-04-19
-link: http://howtocenterincss.com
+url: http://howtocenterincss.com
+tag: Project
 ---
 
 For web developers who struggle with aligning things in CSS, which should be

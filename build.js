@@ -13,10 +13,19 @@ var permalinks = require('metalsmith-permalinks');
 var layouts = require('metalsmith-layouts');
 var assets = require('metalsmith-assets');
 var collections = require('metalsmith-collections');
+var feed = require('metalsmith-feed');
 
 var hideCollections = require('./plugins/hideCollections');
 
 Metalsmith(__dirname)
+  .metadata({
+    site: {
+      title: 'Oliver Zheng',
+      url: 'http://oliverzheng.com',
+      author: 'Oliver Zheng',
+      description: 'A collection of projects and thoughts on software and the stech industry.',
+    },
+  })
   .use(rootpath())
   .use(collections({
     articles: {
@@ -26,7 +35,7 @@ Metalsmith(__dirname)
       pattern: 'projects/*.md'
     },
     all: {
-      pattern: '*/*.md',
+      pattern: '{articles,projects}/*.md',
       sortBy: 'date',
       reverse: true
     }
@@ -35,6 +44,9 @@ Metalsmith(__dirname)
   .use(paths())
   .use(permalinks({
     pattern: ':title',
+  }))
+  .use(feed({
+    collection: 'all',
   }))
   .use(dateFormatter({
     dates: [

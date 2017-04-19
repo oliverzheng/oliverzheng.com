@@ -22,6 +22,7 @@
     "metalsmith-slug": "0.0.5"
   },
   "devDependencies": {
-    "metalsmith-date-formatter": "^1.0.2"
+    "metalsmith-date-formatter": "^1.0.2",
+    "metalsmith-feed": "^0.2.0"
   }
 }

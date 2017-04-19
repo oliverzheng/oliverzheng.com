@@ -6,19 +6,19 @@
         <p class="label-text">
           {{ date }}
         </p>
-        {{#if this.link}}
+        {{#if this.url}}
           <section class="tags">
-            <p class="tag">Project</p>
+            <p class="tag">{{this.tag}}</p>
           </section>
         {{/if}}
         <p class="link">
-          {{#if this.link}}
-            <a href="{{this.link}}">{{this.title}}</a>
+          {{#if this.url}}
+            <a href="{{this.url}}">{{this.title}}</a>
           {{else if this.path}}
             <a href="{{this.path}}">{{this.title}}</a>
           {{/if}}
         </p>
-        {{#if this.link}}
+        {{#if this.url}}
           {{#if this.contents}}
             <section class="description">
               {{{ this.contents }}}

@@ -1,7 +1,8 @@
 ---
 title: FUN+
 date: 2012-10-10
-link: http://funplus.oliverzheng.com
+url: http://funplus.oliverzheng.com
+tag: Project
 ---
 
 Manually add runs to your Nike+ account, in case the Nike+ app crashes or you
