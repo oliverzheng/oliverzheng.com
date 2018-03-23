@@ -2,3 +2,5 @@ npm-debug.log
 build
 node_modules
 **/*.un~
+.DS_Store
+yarn-error.log

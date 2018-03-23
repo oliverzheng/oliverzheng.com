@@ -28,25 +28,29 @@ Metalsmith(__dirname)
   })
   .use(rootpath())
   .use(collections({
-    articles: {
-      pattern: 'articles/*.md'
-    },
-    projects: {
-      pattern: 'projects/*.md'
-    },
-    all: {
-      pattern: '{articles,projects}/*.md',
+    posts: {
+      pattern: 'articles/*.md',
       sortBy: 'date',
       reverse: true
+    },
+    root: {
+      pattern: '*.md',
     }
   }))
   .use(markdown())
   .use(paths())
   .use(permalinks({
-    pattern: ':title',
+    date: 'YYYY',
+    linksets: [{
+      match: { collection: 'posts' },
+      pattern: ':date/:title',
+    }, {
+      match: { collection: 'root' },
+      pattern: ':title',
+    }]
   }))
   .use(feed({
-    collection: 'all',
+    collection: 'posts',
   }))
   .use(dateFormatter({
     dates: [
@@ -64,7 +68,6 @@ Metalsmith(__dirname)
     source: './assets',
     destination: './assets',
   }))
-  .use(hideCollections(['projects']))
   .build(function(err) {
     if (err) throw err;
   });

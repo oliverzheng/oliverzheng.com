@@ -1,20 +1,9 @@
 {{> header}}
-  <p class="label-text">
+  <h1>{{{ title }}}</h1>
+  <p class="dim-text">
     {{ date }}
   </p>
-  <h1>{{{ title }}}</h1>
   <section class="article">
     {{{ contents }}}
-  </section>
-  <ul class="navigation-links see-more">
-    <li>
-      <p class="label-text">Navigate to Home</p>
-      <p class="link">
-        <a href="{{rootPath}}">See More Things</a>
-      </p>
-    </li>
-  </ul>
-  <section class="about">
-    {{> about}}
   </section>
 {{> footer}}

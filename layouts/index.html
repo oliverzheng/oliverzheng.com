@@ -1,41 +1,26 @@
 {{> header}}
-  <ul class="navigation-links">
-    {{#each collections.all}}
-      {{#unless this.hideFromIndex}}
-      <li>
-        <p class="label-text">
+  <p>
+    I'm Oliver Zheng, a software engineer in Seattle.
+    On this site, I write about tech and working in the tech industry.
+    <a href="{{rootPath}}about">More about me here.</a>
+  </p>
+  <h2>Posts</h2>
+  <ul class="posts">
+    {{#each collections.posts}}
+    <li>
+      <p>
+        <a href="{{this.path}}" class="postLink">
+          {{ title }}
+        </a>
+        <br />
+        <span class="dim-text">
           {{ date }}
-        </p>
-        {{#if this.url}}
-          <section class="tags">
-            <p class="tag">{{this.tag}}</p>
-          </section>
-        {{/if}}
-        <p class="link">
-          {{#if this.url}}
-            <a href="{{this.url}}">{{this.title}}</a>
-          {{else if this.path}}
-            <a href="{{this.path}}">{{this.title}}</a>
-          {{/if}}
-        </p>
-        {{#if this.url}}
-          {{#if this.contents}}
-            <section class="description">
-              {{{ this.contents }}}
-            </section>
-          {{/if}}
-        {{/if}}
-      </li>
-      {{/unless}}
+        </span>
+      </p>
+    </li>
     {{/each}}
   </ul>
-  <section class="about">
-    <h1>About</h1>
-    <p>
-      I live in Seattle and work in the software industry. I like making
-      things. This site lists things I've made and non-things that help
-      make things.
-    </p>
-    {{> about}}
-  </section>
+  <p class="rss">
+    <a href="{{rootPath}}rss.xml">RSS Feed</a>
+  </p>
 {{> footer}}
