@@ -73,6 +73,16 @@ body:before {
   background: linear-gradient(to bottom, rgba(243,246,251,1) 0%, rgba(255,255,255,1) 100%);
 }
 
+@media print {
+  body {
+    border: 0;
+  }
+  body:before {
+    content: 0;
+  }
+}
+
+
 header {
   padding-top: 40px;
 }
