@@ -56,7 +56,7 @@ Metalsmith(__dirname)
     dates: [
       {
         key: 'date',
-        format: 'MMM DD, YYYY'
+        format: 'MMMM DD, YYYY'
       }
     ]
   }))
