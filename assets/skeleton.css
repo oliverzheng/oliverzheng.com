@@ -288,7 +288,7 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: disc outside; }
+}
 ol {
   list-style: decimal outside; }
 ol, ul {
