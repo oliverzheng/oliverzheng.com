@@ -59,6 +59,12 @@ body a:hover {
   height: 6px;
 }
 
+@media (min-width: 550px) {
+  .article li:before {
+    left: -15px;
+  }
+}
+
 
 /* Utilities */
 
