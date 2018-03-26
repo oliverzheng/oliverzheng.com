@@ -80,6 +80,10 @@ body a:hover {
   .text-align-right-on-desktop {
     text-align: right;
   }
+
+  .text-align-center-on-desktop {
+    text-align: center;
+  }
 }
 
 
