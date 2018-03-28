@@ -19,6 +19,10 @@ h2 {
   font-size: 26px;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 body p, ul, ol {
   line-height: 30px;
 }
