@@ -46,12 +46,12 @@ body a:hover {
   width: 30px;
 }
 
-.article li {
+.article ul li {
   list-style: none;
   position: relative;
 }
 
-.article li:before {
+.article ul li:before {
   content: '';
   display: inline-block;
   position: absolute;
@@ -64,7 +64,7 @@ body a:hover {
 }
 
 @media (min-width: 550px) {
-  .article li:before {
+  .article ul li:before {
     left: -15px;
   }
 }
