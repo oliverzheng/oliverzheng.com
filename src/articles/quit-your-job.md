@@ -74,6 +74,7 @@ Talk about your narrative in your head and with close friends. Flesh out the sto
 - If you've been at your company for four years, you'll likely have hit your vest cliff already. If you leave and come back, your compensation package may cover more than what you give up in unvested stock when you leave. Do the math and see if you would actually make more money by quitting and coming right back.
 - If you want a job within the first year, since you'll likely be welcomed back to your old company, it'll be much easier to land a job. Not only would that reduce the pressure in finding a job, you'll essentially have an offer on hand to compare and negotiate other offers with. In fact, it will arguably be easier than finding a new job while still employed, since now you can take all the time to study for interviews.
 - No one will bat an eye at the gap on your resume if you eventually do want a job.
+- If you are in the U.S., you'll have access to COBRA for healthcare. It's the exact same healthcare currently provided to you by your employer, but you have to pay a few hundred dollars. Great coverage for a lot less money than what you'd find on the market.
 
 ---
 
