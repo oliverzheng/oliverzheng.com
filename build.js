@@ -51,6 +51,7 @@ Metalsmith(__dirname)
   }))
   .use(feed({
     collection: 'posts',
+    destination: 'rss_feed.xml',
   }))
   .use(dateFormatter({
     dates: [
