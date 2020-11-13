@@ -23,7 +23,7 @@ Email me at herpderp@oliverzheng.com. I might ignore recruiting emails though.
 Elsewhere on the Internet:
 
 - Github: [@oliverzheng][github]
-- Twatter: [@oliverzheng][twitter]
+- Twitter: [@oliverzheng][twitter]
 
   [css]: http://howtocenterincss.com
   [jaas]: http://jaasjs.com
