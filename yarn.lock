@@ -514,6 +514,13 @@ metalsmith-collections@^0.9.0:
     read-metadata "^1.0.0"
     uniq "^1.0.1"
 
+metalsmith-contenthash@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/metalsmith-contenthash/-/metalsmith-contenthash-0.2.1.tgz#5a4579a67e6b66c2af17ecb2eab5d64fa6793f63"
+  integrity sha1-WkV5pn5rZsKvF+yy6rXWT6Z5P2M=
+  dependencies:
+    multimatch "^2.1.0"
+
 metalsmith-date-formatter@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/metalsmith-date-formatter/-/metalsmith-date-formatter-1.0.2.tgz#bd687046e12f9cf98ea31eaebdcb834026eee617"

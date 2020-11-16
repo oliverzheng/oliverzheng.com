@@ -14,6 +14,7 @@ var layouts = require('metalsmith-layouts');
 var assets = require('metalsmith-assets');
 var collections = require('metalsmith-collections');
 var feed = require('metalsmith-feed');
+var contenthash = require('metalsmith-contenthash');
 
 var hideCollections = require('./plugins/hideCollections');
 
@@ -61,13 +62,14 @@ Metalsmith(__dirname)
       }
     ]
   }))
-  .use(layouts({
-    engine: 'handlebars',
-    partials: 'layouts/includes'
-  }))
   .use(assets({
     source: './assets',
     destination: './assets',
+  }))
+  .use(contenthash())
+  .use(layouts({
+    engine: 'handlebars',
+    partials: 'layouts/includes'
   }))
   .build(function(err) {
     if (err) throw err;
