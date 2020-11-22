@@ -48,7 +48,10 @@ Metalsmith(__dirname)
     }, {
       match: { collection: 'root' },
       pattern: ':title',
-    }]
+    }],
+    slug: {
+      remove: /[^a-z0-9- ]+/gi,
+    },
   }))
   .use(feed({
     collection: 'posts',
