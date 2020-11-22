@@ -11,7 +11,7 @@ People with kids and people without kids live in two parallel universes that jus
 
 There’s some point on a bell curve where I’m equally attached (and detached) from both lives to be able to dispassionately diff the two. I’m likely right around that peak now, before the holidays kick in and we start sending our first newsletter and establish a routine we’ll grow to enjoy the hustle of until one day suddenly it disappears when we realize Matthew is all grown up and ready to be on his own. But more on that later.
 
-Besides documenting what my former self could not have reasonably conceived (ahem, dad joke), I want to start with the life changing bits that went according to expectations I had prior to embarking on one-way journey.
+Besides documenting what my former self could not have reasonably conceived (ahem, dad joke), I want to start with the life changing bits that went according to expectations I had prior to embarking on this one-way journey.
 
 **Sleep sucks now.** Getting the obvious out of the way.
 
