@@ -6,6 +6,7 @@
   },
   "scripts": {
     "build": "node build.js",
+    "serve": "echo 'Serving on http://localhost:8000/' && cd build && python -m http.server",
     "test": "true"
   },
   "homepage": "https://oliverzheng.com",
